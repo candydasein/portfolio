@@ -152,8 +152,8 @@ input, select, textarea {
 		-webkit-transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
 		-ms-transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
 		transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
-		border-bottom: dotted 1px;
-		color: #f56a6a;
+		/* border-bottom: dotted 1px;
+		color: #f56a6a; */
 		text-decoration: none;
 	}
 
@@ -259,6 +259,10 @@ input, select, textarea {
 		position: relative;
 		top: -0.5em;
 	}
+
+#tic-tac-toe {
+	width: 94%;
+}
 
 	blockquote {
 		border-left: solid 3px rgba(210, 215, 217, 0.75);
@@ -3387,7 +3391,8 @@ input, select, textarea {
 			flex-shrink: 0;
 			display: block;
 			margin: 0 0 2em 4em;
-			width: 50%;
+			width: 25%;
+			height: 35%;
 		}
 
 			#banner .image img {
@@ -3567,3 +3572,15 @@ input, select, textarea {
 			margin-top: 0;
 			padding-top: 0;
 		}
+
+		#devicons {
+			font-size: 5vw;
+			margin: 20px 20px 0 20px;
+			display: flex;
+			justify-content: space-around;
+			padding-top: 5px;
+			}
+
+			a {
+				text-decoration: none;
+			}
