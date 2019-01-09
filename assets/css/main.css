@@ -3177,10 +3177,15 @@ input, select, textarea {
 				text-indent: 0;
 				top: 0;
 				width: inherit;
+				color: rgb(228, 54, 35);
 			}
 
 		#sidebar.inactive {
 			margin-left: -26em;
+		}
+
+		#do-something {
+			font-weight: bold;
 		}
 
 		@media screen and (max-width: 1680px) {
