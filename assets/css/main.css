@@ -3589,3 +3589,19 @@ input, select, textarea {
 			a {
 				text-decoration: none;
 			}
+
+			.graphql {
+				filter: grayscale(100%);
+				opacity: 0.7
+			}
+			
+			.rethink {
+				filter: grayscale(100%);
+				opacity: 1;
+				margin-top: 0.2em;
+			}
+
+			.language {
+				color: darkgrey;
+				opacity: 0.8 
+			}
