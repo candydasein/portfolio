@@ -3604,3 +3604,8 @@ input, select, textarea {
 			.language {
 				opacity: 0.7 
 			}
+
+			#resume {
+				padding-top: 0em;
+				color: blue
+			}
